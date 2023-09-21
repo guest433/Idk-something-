@@ -1,0 +1,16 @@
+local GUI = game:GetService("CoreGui"):FindFirstChild("itzm hub")
+if not GUI then
+    local itzm_hub = Instance.new("ScreenGui")
+    local itzm_hubUIListLayout = Instance.new("UIListLayout")
+    itzm_hub.Name = "itzm_hub"
+    itzm_hub.Parent = game.CoreGui
+    itzm_hub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    itzm_hub.ResetOnSpawn = false
+    
+    itzm_hubUIListLayout.Name = "itzm_hubUIListLayout"
+    itzm_hubUIListLayout.Parent = itzm_hub
+    itzm_hubUIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Right
+    itzm_hubUIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+    itzm_hubUIListLayout.VerticalAlignment = Enum.VerticalAlignment.Bottom
+else
+end
