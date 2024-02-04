@@ -1,14 +1,12 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))() 
--- can be any gui but you have to replace the bottons and text you can create a function but I don't think it's gonna work i did it but it doesn't work go search in YouTube make sure to delete this idk if this would work you can see it's a lot of tex
 
 local Window = Library.CreateLib("key system", "Synapse") 
--- can be any theme you want
 
 local Key = Window:NewTab("key system") 
 
 local KeySection = Key:NewSection("Key") 
 
-local key = "keyhereorthelink"
+local key = "key here"
 
 
 local key2
@@ -54,10 +52,10 @@ end)
 
 
 
-local thekey= Window:NewTab("the key")
+local thekey= Window:NewTab("the key link")
 local thekeySection = thekey:NewSection("copy key here")
 
 
 thekeySection:NewButton("Key", "", function()
-    setclipboard("keyhereorthelink")
+    setclipboard("key here")
 end)
